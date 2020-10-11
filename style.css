@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    background-color: rgb(123, 115, 126);
+    color: white;
+    padding: 6px;
+    font-size: smaller;
+}
+
+p {
+    font-size: smaller;
+    background-color: rgb(248,248,248);
+    height: 100%;
+    padding: 6px;
+    margin-top: 0px;
+}
+
+#wrapper{
+    width: 700px;
+    height: 800px;
+    background-color: rgb(111,89,100);
+    margin: auto;
+    font-family: sans-serif;
+
+}
+
+#header {
+    width: 680px;
+    height: 30px;
+    background-color: rgb(248,248,248);
+    padding: 5px 0px 15px 20px;
+    color: black;
+}
+
+.headerName {
+    display:inline;
+    text-align: left;
+} 
+
+.headerDesc {
+    display:inline;
+    text-align: right;
+    padding: 5px 0px 15px 200px;
+    font-weight: bolder;
+}
+
+#headshot {
+    background-color: rgb(248,248,248);
+    margin: 15px;
+    width: 100%;
+    border: 3px rgb(248,248,248) solid;
+    height: 80%;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 0px;
+    display: block;
+    /*display: block - fixes image white space */
+}
+
+.techimg {
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    padding: 4px;
+}
+
+.topimg {
+    height: 100%;
+}
+
+.boximg {
+    height: 115px;
+}
+
+#about {
+    margin-top: 15px;
+    width: 95%;
+    height: 67%;
+    margin-right: 15px;
+}
+
+#lamode{
+    margin: 0px 10px;
+    width: 90%;
+    height: 120px;
+}
+
+#familyContacts {
+    margin: 0px 10px;
+    width: 90%;
+    height: 120px;
+}
+
+#fiveEleven {
+    margin: 0px 10px;
+    width: 90%;
+    height: 120px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+button {
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    color: white;
+    background-color: rgb(5, 95, 5);
+    border-radius: 6px;
+    padding: 2px;
+    font-size: smaller;
+}
+
+.laModeBn {
+    left: 70px;
+}
+
+.fiveElevenBn {
+    left: 65px;
+}
+
+#footer {
+    height: 30px;
+    width: 700px;
+    background-color: rgb(248,248,248);
+    color: black;
+    position: absolute;
+    top: 760px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.footimg {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    padding-top: 2px;
+}
